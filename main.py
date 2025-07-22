@@ -34,7 +34,7 @@ all_todos = [
     Todo(todo_id=5, todo_name="Study", todo_description="Prepare for upcoming exams", priority=Priority.LOW)
 ]
 
-@api.get('/todos/{todo_id}', response_model=Todo)
+@api.get('todos/{todo_id}', response_model=Todo)
 def get_todo(todo_id: int):
     for todo in all_todos:
         if todo.todo_id == todo_id:
