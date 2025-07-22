@@ -1,0 +1,42 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# VSCode settings
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Database or cache files
+*.sqlite3
+*.db
+
+# Pytest and test cache
+.pytest_cache/
+.coverage
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# MyPy and other tooling
+.mypy_cache/
